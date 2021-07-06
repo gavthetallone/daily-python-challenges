@@ -1,11 +1,11 @@
 print("### THE FIBONACCI SEQUENCE ###\n")
 
 def fibonacci(number):
-    n = int(number)                 #converting user input string into integer
-    fib_list = [0]*(n+1)            #creating a list of zeros, of size n+1
+    n = int(number)                     #converting user input string into integer
+    fib_list = [0]*(n+1)                #creating a list of zeros, of size n+1
 
     count = 0
-    for count in range(0, n+1):     #looping through list and storing fibonacci sequence
+    for count in range(0, n+1):         #looping through list and storing fibonacci sequence
         if count == 0:
             fib_list[count] = 0
         elif count == 1:
