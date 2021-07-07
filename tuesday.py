@@ -15,5 +15,6 @@ def fibonacci(number):
 
     return(f"\n\tf(n) = {fib_list[n]}\n")           #returning value in list at position 'n'
                                                     #formatting output to include new lines/tabs etc.
-
-print(fibonacci(input("Please enter an integer value. \n\nFor n = ")))     #calling fibonacci function and taking user input
+                                                    
+if __name__ == "__main__":
+    print(fibonacci(input("Please enter an integer value. \n\nFor n = ")))     #calling fibonacci function and taking user input
