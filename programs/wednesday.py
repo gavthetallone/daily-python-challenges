@@ -16,7 +16,7 @@ def evendigits(user_input):
                 number_string += (str(count) + ", ")
         else:
             continue
-    return number_string
+    return number_string.rstrip(", ")
 
 if __name__ == "__main__":  
     print(evendigits(input("Please enter two integers: ")))
